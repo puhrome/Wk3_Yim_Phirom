@@ -1,0 +1,105 @@
+/* ======== C S S ======== S T Y L I N G ====== */
+
+/* ========== B A S I C =========== S T Y L I N G ========== */
+
+
+
+/* ======  HEADER, hgroup, h1, h2, h3, h4, h5 ==== S T Y L I N G ===== */
+
+header {
+    text-align: center;
+    font-size: 6em;
+    font-family: "amatic sc", arial, verdana, sans-serif;
+}
+
+/* ======  D I V ==== S T Y L I N G ===== */
+div#outer {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 70%;
+
+}
+div#section1 {
+    padding: 1% 1%;
+    font-size: 2em;
+}
+div#bio {
+
+}
+div#recipes {
+
+}
+div#adventures {
+
+}
+div#contact{
+
+}
+/* ========== N A V =========== S T Y L I N G ========== */
+
+#main-nav {
+    position: static;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#main-nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 3%;
+}
+#main-nav li a {
+    font-family: "amatic sc", arial, verdana, sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #777;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#babyimage {
+    padding-top: 3%;
+}
+/* ========== F O R M =========== S T Y L I N G ========== */
+.footer-form{
+    position: relative;
+}
+input {
+    height: 10%;
+}
+/* ========== F O O T E R =========== S T Y L I N G ========== */
+
+div#footer {
+    position: absolute;
+    width: 100%;
+    background-color: #4d4d4d;
+}
+.foot #copy {
+    text-align: center;
+    padding: 10%;
+}
+div.header-form {
+    text-align: right;
+}
+.header-form button {
+    height: 3em;
+    border-radius: 2px;
+    width: 5%;
+    border: none;
+    color: #4d4d4d;
+    padding-left: 1%;
+    background-color: #fff;
+}
+.header-form input {
+    height: 3em;
+    padding: 0 1%;
+    width: 20%;
+    border-radius: 2px;
+    border-color: #cccccc;
+}
+input:focus {
+    color: darkseagreen;
+}
+
+

@@ -11,14 +11,16 @@ header {
     font-size: 6em;
     font-family: "amatic sc", arial, verdana, sans-serif;
 }
+header h1 {
+    padding: 2%;
+}
 
 /* ======  D I V ==== S T Y L I N G ===== */
 div#outer {
     position: relative;
     height: 100%;
     margin: 0 auto;
-    width: 70%;
-    padding: 2%;
+    width: 90%;
 }
 div#section1 {
     padding: 1% 1%;
@@ -80,22 +82,23 @@ div#footer {
 }
 div.header-form {
     text-align: right;
+
 }
 .header-form button {
-    position: absolute;
     height: 3em;
     border-radius: 2px;
     width: 5%;
     border: none;
     color: #4d4d4d;
     background-color: #fff;
+
 }
 .header-form input {
-    position: absolute;
     height: 3em;
     width: 30%;
     border-radius: 2px;
     border-color: #cccccc;
+
 }
 input:focus {
     color: darkseagreen;

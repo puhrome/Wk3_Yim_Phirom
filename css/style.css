@@ -8,11 +8,12 @@
 
 header {
     text-align: center;
-    font-size: 6em;
+    font-size: 5em;
     font-family: "amatic sc", arial, verdana, sans-serif;
 }
 header h1 {
-    padding: 2%;
+    padding: 5%;
+    margin: 0 auto;
 }
 
 /* ======  D I V ==== S T Y L I N G ===== */
@@ -39,17 +40,25 @@ div#contact{
 
 }
 /* ========== N A V =========== S T Y L I N G ========== */
+.header-form {
+    position: absolute;
+    width: 100%;
+    padding-bottom: 1%;
 
+}
+#navigation ul {
+    margin: 0 auto;
+    padding: 1% 0;
+}
 #main-nav {
-    position: static;
+    position: relative;
     text-align: center;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
 }
 #main-nav li {
     display: inline;
     list-style-type: none;
     padding: 0 3%;
+    margin: 0 auto;
 }
 #main-nav li a {
     font-family: "amatic sc", arial, verdana, sans-serif;
@@ -64,17 +73,21 @@ div#contact{
 }
 /* ========== F O R M =========== S T Y L I N G ========== */
 .footer-form{
-    position: relative;
 }
 input {
     height: 10%;
 }
+input {
+}
 /* ========== F O O T E R =========== S T Y L I N G ========== */
+footer.footer {
+    position: relative;
+    background-color: #4d4d4d;
 
+}
 div#footer {
     position: absolute;
     width: 100%;
-    background-color: #4d4d4d;
 }
 .foot #copy {
     text-align: center;

@@ -13,16 +13,29 @@ body {
 
 /* Smaller than standard 960 (devices and browsers) */
 @media screen and (max-width: 950px) {
+    body {
+        background-color: red;
+    }
 }
 /* All Mobile Sizes (devices and browser) */
 @media screen and (max-width: 768px) {
+    body {
+        background-color: orange;
+    }
 }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media screen and (max-width: 550px) {
+    body {
+        background-color: green;
+    }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media screen and (max-width: 320px) {
+    body {
+        background-color: blue;
+    }
 }
+
 
 /* #Font-Face ============================================ */
 img {

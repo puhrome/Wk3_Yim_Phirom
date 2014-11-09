@@ -30,11 +30,7 @@ body {
     }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media screen and (max-width: 320px) {
-    body {
-        background-color: blue;
-    }
-}
+
 
 
 /* #Font-Face ============================================ */

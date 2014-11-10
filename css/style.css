@@ -9,13 +9,15 @@
 header {
     text-align: center;
     font-size: 5em;
-    font-family: "MyFont", "1942-report", sans-serif;
+    font-family: "Amatic SC", "1942-report", sans-serif;
 }
 header h1 {
     padding: 5%;
     margin: 0 auto;
 }
-
+h1 {
+    font-family: "amatic sc", sans-serif;
+}
 /* ======  D I V ==== S T Y L I N G ===== */
 div#outer {
     position: relative;

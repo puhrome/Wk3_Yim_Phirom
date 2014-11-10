@@ -84,6 +84,7 @@ input {
 /* ========== F O O T E R =========== S T Y L I N G ========== */
 footer.footer {
     position: relative;
+    background-color: #4d4d4d;
 
 }
 div#footer {
@@ -107,16 +108,38 @@ div.header-form {
     background-color: #fff;
 
 }
-.header-form input {
+form input {
     height: 3em;
-    width: 30%;
     border-radius: 2px;
     border-color: #cccccc;
-    padding-left: 1%;
 
 }
 input:focus {
     color: darkseagreen;
 }
+input#name {
+    position: relative;
+    height: 5em;
+    width: 40%;
+    border-radius: 3px;
+    float: right;
+    clear: both;
+}
+input#email {
+    position: relative;
+    height: 5em;
+    width: 40%;
+    border-radius: 3px;
+    float: right;
+    clear: both;
 
+}
+button#form-btn {
+    position: relative;
+    height: 5em;
+    width: 40%;
+    border-radius: 2px;
+    float: right;
+    clear: both;
+}
 

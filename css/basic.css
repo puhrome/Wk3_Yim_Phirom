@@ -12,19 +12,19 @@ body {
 /* ========== M E D I A =========== Q U E R I E S ========== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media screen and (max-width: 950px) {
+@media all and (max-width: 950px) {
     body {
         background-color: red;
     }
 }
 /* All Mobile Sizes (devices and browser) */
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     body {
         background-color: orange;
     }
 }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media screen and (max-width: 550px) {
+@media all and (max-width: 550px) {
     body {
         background-color: green;
     }
@@ -45,3 +45,9 @@ img {
     src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(http://fonts.gstatic.com/s/amaticsc/v6/DPPfSFKxRTXvae2bKDzp5IX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+@font-face {
+    font-family: "MyFont";
+    src: local("../fonts/1942-report"),
+    url(http)
+}
+
